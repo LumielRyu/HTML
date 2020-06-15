@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Rifas</title>
+    <link rel="stylesheet" href="_css/estilos.css" />
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <h1>RIFA</h1>
+            <h2>Premio: Um Carro 0KM</h2>
+        </header>
+
+        <section>
+
+            <table id="tabelarifas">
+
+                <tr>
+                    <td class="TabBase">Numero</td>
+                    <td class="TabBase">Nome do Solicitante</td>
+                    <td class="TabBase">Status</td>
+                    <td class="TabBase">Data de Solicitação</td>
+                    <td class="TabBase">Formulario</td>
+                </tr>
+
+                <tr>
+                    <td class="Valor" id="val001">001</td>
+                    <td class="ValorNome" id="NomeCadastro001"> </td>
+                    <td class="ValorPositivo" id="idStatus001"></td>
+                    <td class="ValorData" id="DataCadastro001">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro001" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar001(this,'NomeCadastro001','DataCadastro001','idStatus001')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val002">002</td>
+                    <td class="ValorNome" id="NomeCadastro002"> </td>
+                    <td class="ValorPositivo" id="idStatus002"></td>
+                    <td class="ValorData" id="DataCadastro002">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro002" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar002(this,'NomeCadastro002','DataCadastro002','idStatus002')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val003">003</td>
+                    <td class="ValorNome" id="NomeCadastro003"> </td>
+                    <td class="ValorPositivo" id="idStatus003"></td>
+                    <td class="ValorData" id="DataCadastro003">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro003" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar003(this,'NomeCadastro003','DataCadastro003','idStatus003')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val004">004</td>
+                    <td class="ValorNome" id="NomeCadastro004"> </td>
+                    <td class="ValorPositivo" id="idStatus004"></td>
+                    <td class="ValorData" id="DataCadastro004">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro004" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar004(this,'NomeCadastro004','DataCadastro004','idStatus004')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val005">005</td>
+                    <td class="ValorNome" id="NomeCadastro005"> </td>
+                    <td class="ValorPositivo" id="idStatus005"></td>
+                    <td class="ValorData" id="DataCadastro005">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro005" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar(this,'NomeCadastro005','DataCadastro005','idStatus005')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val008">008</td>
+                    <td class="ValorNome" id="NomeCadastro006"> </td>
+                    <td class="ValorPositivo" id="idStatus006"></td>
+                    <td class="ValorData" id="DataCadastro006">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro006" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar(this,'NomeCadastro006','DataCadastro006','idStatus006')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val007">007</td>
+                    <td class="ValorNome" id="NomeCadastro007"> </td>
+                    <td class="ValorPositivo" id="idStatus007"></td>
+                    <td class="ValorData" id="DataCadastro007">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro007" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar(this,'NomeCadastro007','DataCadastro007','idStatus007')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val008">008</td>
+                    <td class="ValorNome" id="NomeCadastro008"> </td>
+                    <td class="ValorPositivo" id="idStatus008"></td>
+                    <td class="ValorData" id="DataCadastro008">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro008" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar(this,'NomeCadastro008','DataCadastro008','idStatus008')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val009">009</td>
+                    <td class="ValorNome" id="NomeCadastro009"> </td>
+                    <td class="ValorPositivo" id="idStatus009"></td>
+                    <td class="ValorData" id="DataCadastro009">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro009" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar(this,'NomeCadastro009','DataCadastro009','idStatus009')"></td>
+                </tr>
+                <tr>
+                    <td class="Valor" id="val010">010</td>
+                    <td class="ValorNome" id="NomeCadastro010"> </td>
+                    <td class="ValorPositivo" id="idStatus010"></td>
+                    <td class="ValorData" id="DataCadastro010">__/__/____</td>
+                    <td class="BotaoFormulario"><input type="button" name="tCadastro" id="cCadastro010" size="10"
+                            value="Cadastrar"
+                            onclick="Cadastrar(this,'NomeCadastro010','DataCadastro010','idStatus010')"></td>
+                </tr>
+            </table>
+            <h3>Legenda:</h3>
+            <table id="tabelalegenda">
+                <tr>
+                    <td class="ValorPositivo">Disponivel</td>
+                    <td class="ValorNegativo">Não Disponivel </td>
+                </tr>
+            </table>
+
+        </section>
+
+        <script>
+            
+
+            function Cadastrar001(btn, nomePessoa, dataCadastro, idStatus) {
+                if (btn.value == "Cadastrar") {
+                    var nome = window.prompt('Qual é o Seu Nome?')
+                    var CadastradoNome = document.getElementById(nomePessoa)
+                    var DataSolicitacao = document.getElementById(dataCadastro)
+                    var status = document.getElementById(idStatus)
+
+
+                    var Horario = new Date()
+                    var DataMes = Horario.getDate()
+                    var Mes = Horario.getMonth()
+                    var Ano = Horario.getFullYear();
+
+
+
+                    status.classList.add('ValorNegativo')
+                    status.classList.remove('ValorPositivo')
+                    btn.value = "Cadastrado"
+
+                    let armazenarRifas = JSON.stringify({
+                        Nome: nome,
+                        Data: DataMes + '/' + Mes + '/' + Ano,
+                        Status: btn.value
+                    })
+                    localStorage.setItem("dadosArmazenados", armazenarRifas)
+                    console.log(localStorage.getItem("dadosArmazenados"))
+
+                    let meuObjNome001 = nome
+                    let meuObjNome001_serializado = JSON.stringify(meuObjNome001)
+                    localStorage.setItem("meuObjNome001", meuObjNome001_serializado)
+                    let meuObjNome001_Deserializado = JSON.parse(localStorage.getItem("meuObjNome001"))
+
+
+                    let meuObjData001 = DataMes + '/' + Mes + '/' + Ano
+                    let meuObjData001_Serializado = JSON.stringify(meuObjData001)
+                    localStorage.setItem("meuObjData001", meuObjData001_Serializado)
+                    let meuObjData001_Deserializado = JSON.parse(localStorage.getItem("meuObjData001"))
+
+                    let cadastradoNomeRegistrado = localStorage.getItem("meuObjNome001")
+                    let dataSolicitacaoRegistrado = localStorage.getItem("meuObjData001")
+
+                    CadastradoNome.innerText = cadastradoNomeRegistrado
+                    DataSolicitacao.innerText = dataSolicitacaoRegistrado
+                }
+            }
+
+            function Cadastrar002(btn, nomePessoa, dataCadastro, idStatus) {
+                if (btn.value == "Cadastrar") {
+                    var nome = window.prompt('Qual é o Seu Nome?')
+                    var CadastradoNome = document.getElementById(nomePessoa)
+                    var DataSolicitacao = document.getElementById(dataCadastro)
+                    var status = document.getElementById(idStatus)
+
+
+                    var Horario = new Date()
+                    var DataMes = Horario.getDate()
+                    var Mes = Horario.getMonth()
+                    var Ano = Horario.getFullYear();
+
+
+
+                    status.classList.add('ValorNegativo')
+                    status.classList.remove('ValorPositivo')
+                    btn.value = "Cadastrado"
+
+
+                    let meuObjNome002 = nome
+                    let meuObjNome002_serializado = JSON.stringify(meuObjNome002)
+                    localStorage.setItem("meuObjNome002", meuObjNome002_serializado)
+                    let meuObjNome002_Deserializado = JSON.parse(localStorage.getItem("meuObjNome002"))
+
+
+                    let meuObjData002 = DataMes + '/' + Mes + '/' + Ano
+                    let meuObjData002_Serializado = JSON.stringify(meuObjData002)
+                    localStorage.setItem("meuObjData002", meuObjData002_Serializado)
+                    let meuObjData002_Deserializado = JSON.parse(localStorage.getItem("meuObjData002"))
+
+                    let cadastradoNomeRegistrado = localStorage.getItem("meuObjNome002")
+                    let dataSolicitacaoRegistrado = localStorage.getItem("meuObjData002")
+
+                    CadastradoNome.innerText = cadastradoNomeRegistrado
+                    DataSolicitacao.innerText = dataSolicitacaoRegistrado
+                }
+            }
+
+            function Cadastrar003(btn, nomePessoa, dataCadastro, idStatus) {
+                if (btn.value == "Cadastrar") {
+                    var nome = window.prompt('Qual é o Seu Nome?')
+                    var CadastradoNome = document.getElementById(nomePessoa)
+                    var DataSolicitacao = document.getElementById(dataCadastro)
+                    var status = document.getElementById(idStatus)
+
+
+                    var Horario = new Date()
+                    var DataMes = Horario.getDate()
+                    var Mes = Horario.getMonth()
+                    var Ano = Horario.getFullYear();
+
+
+
+                    status.classList.add('ValorNegativo')
+                    status.classList.remove('ValorPositivo')
+                    btn.value = "Cadastrado"
+
+
+                    let meuObjNome003 = nome
+                    let meuObjNome003_serializado = JSON.stringify(meuObjNome003)
+                    localStorage.setItem("meuObjNome003", meuObjNome003_serializado)
+                    let meuObjNome003_Deserializado = JSON.parse(localStorage.getItem("meuObjNome003"))
+
+
+                    let meuObjData003 = DataMes + '/' + Mes + '/' + Ano
+                    let meuObjData003_Serializado = JSON.stringify(meuObjData003)
+                    localStorage.setItem("meuObjData003", meuObjData003_Serializado)
+                    let meuObjData003_Deserializado = JSON.parse(localStorage.getItem("meuObjData003"))
+
+                    let cadastradoNomeRegistrado = localStorage.getItem("meuObjNome003")
+                    let dataSolicitacaoRegistrado = localStorage.getItem("meuObjData003")
+
+                    CadastradoNome.innerText = cadastradoNomeRegistrado
+                    DataSolicitacao.innerText = dataSolicitacaoRegistrado
+                }
+            }
+
+            function Cadastrar004(btn, nomePessoa, dataCadastro, idStatus) {
+                if (btn.value == "Cadastrar") {
+                    var nome = window.prompt('Qual é o Seu Nome?')
+                    var CadastradoNome = document.getElementById(nomePessoa)
+                    var DataSolicitacao = document.getElementById(dataCadastro)
+                    var status = document.getElementById(idStatus)
+
+
+                    var Horario = new Date()
+                    var DataMes = Horario.getDate()
+                    var Mes = Horario.getMonth()
+                    var Ano = Horario.getFullYear();
+
+
+
+                    status.classList.add('ValorNegativo')
+                    status.classList.remove('ValorPositivo')
+                    btn.value = "Cadastrado"
+
+
+                    let meuObjNome004 = nome
+                    let meuObjNome004_serializado = JSON.stringify(meuObjNome004)
+                    localStorage.setItem("meuObjNome004", meuObjNome004_serializado)
+                    let meuObjNome004_Deserializado = JSON.parse(localStorage.getItem("meuObjNome004"))
+
+
+                    let meuObjData004 = DataMes + '/' + Mes + '/' + Ano
+                    let meuObjData004_Serializado = JSON.stringify(meuObjData004)
+                    localStorage.setItem("meuObjData004", meuObjData004_Serializado)
+                    let meuObjData004_Deserializado = JSON.parse(localStorage.getItem("meuObjData004"))
+
+                    let cadastradoNomeRegistrado = localStorage.getItem("meuObjNome004")
+                    let dataSolicitacaoRegistrado = localStorage.getItem("meuObjData004")
+
+                    CadastradoNome.innerText = cadastradoNomeRegistrado
+                    DataSolicitacao.innerText = dataSolicitacaoRegistrado
+                }
+            }
+
+            var CadastradoNome001 = document.getElementById("NomeCadastro001")
+            var DataSolicitacao001 = document.getElementById("DataCadastro001")
+            var status001 = document.getElementById("idStatus001")
+            var botaoCadastro = document.getElementById("cCadastro001")          
+            let cadastradoNomeRegistrado001 = localStorage.getItem("meuObjNome001")
+            let dataSolicitacaoRegistrado001 = localStorage.getItem("meuObjData001")
+            CadastradoNome001.innerText = cadastradoNomeRegistrado001
+            DataSolicitacao001.innerText = dataSolicitacaoRegistrado001
+            if (cadastradoNomeRegistrado001) {
+                status001.classList.add('ValorNegativo')
+                status001.classList.remove('ValorPositivo')
+                botaoCadastro.value = "Cadastrado"
+            }
+
+
+            var CadastradoNome002 = document.getElementById("NomeCadastro002")
+            var DataSolicitacao002 = document.getElementById("DataCadastro002")
+            var status002 = document.getElementById("idStatus002")
+            var botaoCadastro = document.getElementById("cCadastro002")           
+            let cadastradoNomeRegistrado002 = localStorage.getItem("meuObjNome002")
+            let dataSolicitacaoRegistrado002 = localStorage.getItem("meuObjData002")
+            CadastradoNome002.innerText = cadastradoNomeRegistrado002
+            DataSolicitacao002.innerText = dataSolicitacaoRegistrado002
+            if (cadastradoNomeRegistrado002) {
+                status002.classList.add('ValorNegativo')
+                status002.classList.remove('ValorPositivo')
+                botaoCadastro.value = "Cadastrado"
+            }
+
+            var CadastradoNome003 = document.getElementById("NomeCadastro003")
+            var DataSolicitacao003 = document.getElementById("DataCadastro003")
+            var status003 = document.getElementById("idStatus003")
+            var botaoCadastro = document.getElementById("cCadastro003")           
+            let cadastradoNomeRegistrado003 = localStorage.getItem("meuObjNome003")
+            let dataSolicitacaoRegistrado003 = localStorage.getItem("meuObjData003")
+            CadastradoNome003.innerText = cadastradoNomeRegistrado003
+            DataSolicitacao003.innerText = dataSolicitacaoRegistrado003
+            if (cadastradoNomeRegistrado003) {
+                status003.classList.add('ValorNegativo')
+                status003.classList.remove('ValorPositivo')
+                botaoCadastro.value = "Cadastrado"
+            }
+
+            var CadastradoNome004 = document.getElementById("NomeCadastro004")
+            var DataSolicitacao004 = document.getElementById("DataCadastro004")
+            var status004 = document.getElementById("idStatus004")
+            var botaoCadastro = document.getElementById("cCadastro004")           
+            let cadastradoNomeRegistrado004 = localStorage.getItem("meuObjNome004")
+            let dataSolicitacaoRegistrado004 = localStorage.getItem("meuObjData004")
+            CadastradoNome004.innerText = cadastradoNomeRegistrado004
+            DataSolicitacao004.innerText = dataSolicitacaoRegistrado004
+            if (cadastradoNomeRegistrado004) {
+                status004.classList.add('ValorNegativo')
+                status004.classList.remove('ValorPositivo')
+                botaoCadastro.value = "Cadastrado"
+            }
+
+
+        </script>
+        <footer id="rodape">
+            <p>Copyright 2019 - by Otavio Augusto<br />
+                <a href="http://facebook.com/otavio008" target="blank">Facebook </a> | <a
+                    href="http://www.Youtube.com.br" target="blank">Youtube</a></p>
+        </footer>
+    </div>
+</body>
