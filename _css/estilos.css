@@ -1,0 +1,141 @@
+@charset "UTF-8";
+body{
+    background-color: #dddddd;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#interface {
+    width: 90%;
+    background-color: white;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 10px 10px 10px;
+}
+
+header#cabecalho {
+    background-color: rgba(238, 238, 238, 0.815);
+    background: url("../_Imagens/3geolink2-transparencia.png" ) no-repeat  3% 50%, url("../_Imagens/ImagemCarro.png") no-repeat 100% 25px;
+    background-blend-mode: color;
+    border-bottom: 1px #606060 solid;
+    height: 220px;
+}
+
+
+header#cabecalho h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+position: absolute;
+font-size: 40pt;
+right: 40%;
+top: 5%;
+}
+
+header#cabecalho h2 {
+    position: absolute;
+    right: 110px;
+}
+
+div#section h2 {
+    margin-bottom: 0px;
+}
+
+input#cNome {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+section#tr td {
+    font-size: 10pt;
+}
+
+table#tabelarifas {
+    border: 1px solid #606060;
+    border-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+table#tabelarifas td{
+    border: 1px solid #606060;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+
+table#tabelasrifas td.TabBase {
+    color: #ffffff;
+    background-color: #606060;
+    font-weight: bold;
+    text-align: center;
+}
+
+table#tabelarifas td.Valor {
+    background-color: #cecece;
+    text-align: right;
+}
+
+table#tabelarifas td.Valor {
+    background-color: #cecece;
+    text-align: right;
+}
+
+table#tabelarifas td.ValorNome {
+    background-color: #cecece;
+    text-align: left;
+}
+
+table#tabelarifas td.ValorData {
+    background-color: #cecece;
+    text-align: center;
+}
+
+table#tabelarifas td.ValorPositivo {
+    background-color: green;
+    text-align: left;
+    width: 50%;
+}
+
+table#tabelarifas td.ValorNegativo {
+    background-color: red;
+    text-align: left;
+    width: 50%;
+}
+
+section h3 {
+    text-align: right;
+}
+
+table#tabelalegenda {
+    border: 1px solid #606060;
+    border-spacing: 2px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+table#tabelalegenda td{
+    border: 1px solid #606060;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+
+table#tabelalegenda td.ValorPositivo {
+    background-color: green;
+    text-align: left;
+}
+
+table#tabelalegenda td.ValorNegativo {
+    background-color: red;
+    text-align: left;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
